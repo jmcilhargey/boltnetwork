@@ -1,0 +1,124 @@
+html, body {
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  text-align: center;
+  background-size: 141px 142px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #000 !important;
+  height: 600px;
+  text-align: center;
+  color: #fff
+}
+
+.container {
+  max-width: 970px;
+}
+
+.header li {
+  color: #fff;
+  list-style: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+.jumbotron .btn {
+  color: #0393ff;
+  background: transparent;
+  border: 1px solid #0393ff;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.jumbotron .btn:hover {
+  color: #fff;
+  background-color: #0393ff;
+  border-color: #0393ff;
+}
+
+.jumbotron .main h1 {
+  margin: 80px 0 40px 0;
+  font-weight: 300;
+  color: #fff;
+}
+
+.form-inline {
+  margin-top: 80px;
+}
+
+#search {
+  background: transparent;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  width: 400px;
+  margin: 0 20px;
+}
+
+#search:hover {
+  border-bottom: 1px solid #0393ff;
+}
+
+#search:focus {
+  border-bottom: 1px solid #0393ff;
+  box-shadow: 0px 0px 0px;
+  outline: 0px;
+}
+
+.supporting {
+  padding-bottom: 80px;
+}
+
+.supporting h2,
+.feature h1 {
+  color: #0393ff;
+  margin: 60px 0 10px 0;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.supporting p,
+.feature p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.supporting .thumbnail {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.feature {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center !important;
+  background-size: cover !important;
+  height: 380px;
+  padding-top: 100px;
+}
+
+.footer {
+  background: #000;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.footer ul {
+  color: #0393ff;
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
